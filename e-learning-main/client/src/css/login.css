@@ -1,0 +1,52 @@
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  @keyframes  border-animation {
+    0% { border-color: #21b2d2; }
+    50% { border-color: #fff; }
+    100% { border-color: #6dd5ed; }
+  }
+  .container {
+    animation: border-animation 3s linear infinite;
+  }
+  .card-container {
+    width: 400px;
+  }
+
+
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form {
+    background-color: white;
+    padding: 2.5em;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+  }
+
+ .Card{
+ height: 454px;
+
+
+
+  }
+
+.formContet {
+
+
+    display: flex;
+    justify-content: space-;
+    align-items: center;
+    height: 100vh;
+   
+
+
+
+}

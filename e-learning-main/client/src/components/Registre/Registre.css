@@ -1,0 +1,52 @@
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.background-animation-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+
+.background-animation-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: -68px auto;
+}
+
+
+
+.input-box {
+  margin-bottom: 20px;
+}
+.registration-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.card-body {
+  background-color: transparent;
+  border: none;
+  background-color: #f6f6f6;
+}
+.card {
+  transition: all 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Animation de translation vers le haut au survol */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Ombre plus prononcée au survol */
+}
